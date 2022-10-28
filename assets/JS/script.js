@@ -12,7 +12,10 @@ for (let button of buttons){
         playGame(playerChoice);
     });
 }
-
+/** 
+ * This function runs the game, displays the images of the players choice 
+ * and a random image for computer choice. It then calls a funtion to check results.
+ */
 function playGame(playerChoice){
 
     playerImage.src=`assets/images/${options[playerChoice]}.jpg`;
@@ -25,17 +28,75 @@ function playGame(playerChoice){
     let player=options[playerChoice];
     let computer=options[computerChoice];
 
-    let result = checkWinner(player, computer);
-
-    changeScores(result);
-}
-
-function checkWinner(player,computer) {
-    result = player+computer;
+    checkWinner(player, computer);
 
     
-} 
+}
+/**
+ * This function takes in parameters player and computer, two srtings which are the choices,
+ * it then adds both strings are one and compares to work out who won.
+ */
+function checkWinner(player,computer) {
+    
+    let choiceString = player+computer;
+    
+    switch(choiceString){
+        case "scissorspaper":
+        case "scissorslizard":
+        case "paperrock":
+        case "rocklizard":
+        case "lizardspock":
+        case "paperspock":
+        case "spockrock":
+        case "spockscissors":
+        case "rockscissors":
+        case "lizardpaper":
+        	/*incrementPlayerScore(choiceString);
+            displayWinner():*/
+            console.log("You Win");
+        break;
+    
+    	case "paperscissors":
+        case "lizardscissors":
+        case "rockpaper":
+        case "lizardrock":
+        case "spocklizard":
+        case "spockpaper":
+        case "rockspock":
+        case "scissorsspock":
+        case "scissorsrock":
+        case "paperlizard":
+           /* incrementComputerScore(choiceString);
+            displayWinner()*/
+            console.log("Computer wins");
+        break;
 
-function changeScores(){
-    console.log("changeScores function called");
+        case "scissorsscissors":
+        case "rockrock":
+        case "paperpaper":
+        case "lizardlizard":
+        case "spockspock":
+            console.log("its a draw");
+        break;
+
+        default:
+            console.log("error");
+}
+/*
+function displayWinner(winner){
+    console.log(winner);
+}
+
+function incrementComputerScore(){
+    console.log("3");
+}
+
+function incrementPlayerScore(choiceString){
+    console.log(choiceString, "you win");
+}
+
+function gaameCounter(){
+
+}*/
+
 }
