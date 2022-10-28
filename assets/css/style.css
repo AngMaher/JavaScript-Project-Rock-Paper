@@ -68,6 +68,10 @@ header{
     width: 60%;
     margin: 0 15px;
 }
+#result-display{
+    float:right;
+    font-size: 200%;
+}
 
 footer{
     height: 25px;

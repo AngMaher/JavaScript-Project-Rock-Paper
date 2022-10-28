@@ -51,8 +51,8 @@ function checkWinner(player,computer) {
         case "spockscissors":
         case "rockscissors":
         case "lizardpaper":
-        	/*incrementPlayerScore(choiceString);
-            displayWinner():*/
+        	/*incrementPlayerScore(choiceString);*/
+            displayPlayerWinner();
             console.log("You Win");
         break;
     
@@ -66,8 +66,7 @@ function checkWinner(player,computer) {
         case "scissorsspock":
         case "scissorsrock":
         case "paperlizard":
-           /* incrementComputerScore(choiceString);
-            displayWinner()*/
+            displayComputerWinner();
             console.log("Computer wins");
         break;
 
@@ -76,18 +75,29 @@ function checkWinner(player,computer) {
         case "paperpaper":
         case "lizardlizard":
         case "spockspock":
+            displayDraw();
             console.log("its a draw");
         break;
 
         default:
             console.log("error");
 }
-/*
-function displayWinner(winner){
-    console.log(winner);
+
+function displayPlayerWinner(){
+    let winner = document.getElementById("result-display");
+    winner.textContent = "You Won!!";
 }
 
-function incrementComputerScore(){
+function displayComputerWinner(){
+    let winner = document.getElementById("result-display");
+    winner.textContent = "Computer Wins";
+
+}
+function displayDraw(){
+    let winner = document.getElementById("result-display");
+    winner.textContent = "Its a Draw!!";
+}
+/*function incrementComputerScore(){
     console.log("3");
 }
 
