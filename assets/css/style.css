@@ -18,7 +18,7 @@ header{
 
 #game-section {
     font-family: monospace;
-    width: 60%;
+    width: 50%;
     height: 600px;
     left: 350px;
     bottom: 150px;
@@ -39,7 +39,7 @@ header{
 #game-section button {
     padding: 15px;
     border-radius: 10%;
-    margin-left: 100px;
+    margin-left: 80px;
     margin-bottom: 30px;
     width:100px;
     background-color: rgb(28, 42, 54);
@@ -66,11 +66,12 @@ header{
 
 #computer-image{
     width: 60%;
-    margin: 0 15px;
 }
-#result-display{
-    float:right;
+#result-display {
+    margin: 0 auto;
+    bottom: 10%;
     font-size: 200%;
+    position: absolute;
 }
 
 footer{
@@ -97,4 +98,8 @@ footer a {
     font-size: 150%;
     line-height: 30px;
 
+}
+
+@media screen and (max-width: 1400px) {
+    
 }
