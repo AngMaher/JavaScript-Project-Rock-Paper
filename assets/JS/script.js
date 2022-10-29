@@ -12,6 +12,14 @@ for (let button of buttons){
         playGame(playerChoice);
     });
 }
+
+for (let button of buttons){
+    button.addEventListener('mousemove', function(){
+        let buttonColor = this.getElementsByClassName('btn-chloice');
+        buttonColor.style.backgroundColor="red";
+    })
+}
+
 /** 
  * This function runs the game, displays the images of the players choice 
  * and a random image for computer choice. It then calls a funtion to check results.

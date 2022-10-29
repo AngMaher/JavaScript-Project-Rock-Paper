@@ -57,6 +57,10 @@ header a{
     float: left;
 }
 
+#game-section  button:hover{
+    background-color: #10115e;
+}
+
 .player-area {
    float: left;
    width: 45%;
