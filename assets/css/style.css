@@ -2,16 +2,26 @@ body {
     background-color: rgb(56, 60, 110);
 }
 
-header{
+header h3{
     float: left;
     color:antiquewhite;
     font-weight: 700;
     padding:30px;
     font-size: 200%;
 }
+header p{
+    float: right;
+    color:antiquewhite;
+    font-weight: 700;
+    padding:30px;
+    font-size: 150%;
+}
+header a{
+    color:antiquewhite;
+}
 #hero-image{
     width: 100%;
-    height: 850px;
+    height: 900px;
     background: url(../images/hero-image1.webp) no-repeat center center;
     background-size: cover;
 }
@@ -71,6 +81,7 @@ header{
     margin: 0 auto;
     bottom: 10%;
     font-size: 200%;
+    font-weight: 700;
     position: absolute;
 }
 
@@ -83,16 +94,18 @@ footer{
     position: fixed;
 }
 
-footer a {
-    color:antiquewhite;
-}
 
 #rules-section{
+    background-color: #47598a;
     height: 600px;
     width: 30%;
-    border: 2px double black;
+
+    border:2px solid rgb(28, 42, 54);
+    box-shadow: 10px 10px 8px #26312c;
+
     margin: 150px auto 10px;
     padding: 30px;
+
     text-align: center;
     color:antiquewhite;
     font-size: 150%;
@@ -100,6 +113,77 @@ footer a {
 
 }
 
-@media screen and (max-width: 1400px) {
+#home-link {
+    color:antiquewhite;
+}
+
+@media screen and (max-width: 1800px) {
+
+    #game-section{
+        width: 60%;
+    }
     
+    #game-section button{
+        margin-left: 40px;
+    }
+}
+
+@media screen and (max-width: 1350px) {
+
+    #hero-image{
+        height: 1100px;
+    }
+    #game-section {
+        left: 200px;
+    }
+}
+
+@media screen and (max-width: 1000px){
+    #game-section{
+        width: 90%;
+        left: 20px;
+    }
+    #rules-section{
+        width: 60%;
+        height: 800px;
+    }
+}
+
+@media screen and (max-width: 800px){
+    header h3{
+        margin: 0;
+    }
+    header p{
+        margin: 0;
+    }
+    #game-section button{
+        margin-left: 90px;
+    }
+    #rules-section{
+        height: 1000px;
+        width: 80%;
+    }
+}
+@media screen and (max-width: 650px){
+    #game-section{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        left: 0;
+        bottom: 200px;
+    }
+}
+@media screen and (max-width: 550px) {
+    #game-section button{
+        margin-left: 40px;
+    }
+    
+}
+@media screen and (max-width: 400px) {
+    #game-section button{
+        float: none;
+        margin-left: 0;
+        width: 70px;
+        padding: 5px;
+    }
 }
