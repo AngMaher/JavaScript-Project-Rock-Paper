@@ -105,13 +105,13 @@ footer{
 
 #rules-section{
     background-color: #47598a;
-    height: 600px;
+    height: 1500px;
     width: 30%;
 
     border:2px solid rgb(28, 42, 54);
     box-shadow: 10px 10px 8px #26312c;
 
-    margin: 150px auto 10px;
+    margin: 100px auto 10px;
     padding: 30px;
 
     text-align: center;
@@ -121,8 +121,15 @@ footer{
 
 }
 
+#rules-section h2{
+    color:#191f1c;
+}
+
 #home-link {
     color:antiquewhite;
+}
+#home-link:hover{
+    background-color: rgb(38, 49, 44, .8);
 }
 
 @media screen and (max-width: 1800px) {

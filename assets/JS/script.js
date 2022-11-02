@@ -103,7 +103,7 @@ function displayPlayerWinner(){
 function displayComputerWinner(){
     let winner = document.getElementById("result-display");
     winner.textContent = "Computer Wins!!";
-    winner.style.alignContent = "centre";
+    winner.style.margin
 
 }
 /**

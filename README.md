@@ -105,5 +105,14 @@ antiquewhite rgb(28, 42, 54)
     * Google chrome developer tools
     * Font Awesome
 
+## Testing
+* to see testing please click [Here](testing.md)
 
+## Bugs
+
+## Deployment
+
+## Credits
+
+## Acknowledgements
 
