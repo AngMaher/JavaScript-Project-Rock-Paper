@@ -13,13 +13,6 @@ for (let button of buttons){
     });
 }
 
-for (let button of buttons){
-    button.addEventListener('mousemove', function(){
-        let buttonColor = this.getElementsByClassName('btn-chloice');
-        buttonColor.style.backgroundColor="red";
-    })
-}
-
 /** 
  * This function runs the game, displays the images of the players choice 
  * and a random image for computer choice. It then calls a funtion to check results.
@@ -37,8 +30,6 @@ function playGame(playerChoice){
     let computer=options[computerChoice];
 
     checkWinner(player, computer);
-
-    
 }
 /**
  * This function takes in parameters player and computer, two srtings which are the choices,
@@ -116,8 +107,10 @@ function incrementComputerScore(){
     let oldScore = parseInt(document.getElementById('computer-result').innerText);
     document.getElementById('computer-result').innerText = ++oldScore;
 }
+/*function handleEvent(event){
 
-/*function gaameCounter(){
+}
+function gaameCounter(){
 
 }*/
 
