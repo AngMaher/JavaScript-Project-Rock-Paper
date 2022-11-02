@@ -161,7 +161,10 @@ footer{
     }
     #game-section button{
         margin-left: 90px;
+    }
+    #game-section{
         background-color: none;
+        bottom: 150px;
     }
     #rules-section{
         height: 1000px;
