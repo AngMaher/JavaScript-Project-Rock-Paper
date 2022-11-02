@@ -29,6 +29,11 @@ insert colors used:
 
 antiquewhite rgb(28, 42, 54)
 
+### Typography
+* I used google fonts to select and use Monospace as I feel it gives a space feel to the site.
+
+![font space mono](/assets/images/readme-images/font.png)
+
 
 
 ## Features
@@ -82,4 +87,23 @@ antiquewhite rgb(28, 42, 54)
 
 ### Features left to Implement
 
-* I would like to include maybe a timer or a quiz 
+* I would like to include maybe a timer or a quiz
+* Graphic and Animation
+
+## Technologies Used
+
+* Languages
+    * HTML
+    * CCS
+    * JavaScript
+* Frameworks and tools
+    * Git
+    * Github
+    * Balsamiq
+    * Google Fonts
+    * Favicon.io
+    * Google chrome developer tools
+    * Font Awesome
+
+
+

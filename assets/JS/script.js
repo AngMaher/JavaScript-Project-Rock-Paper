@@ -3,6 +3,7 @@ let buttons = document.getElementsByClassName('btn-choice');
 const computerImage = document.getElementById("computer-image")
 const playerImage = document.getElementById("player-image");
 let resultDisplay = document.getElementById('result-display');
+let reset = document.getElementById('reset');
 
 let options = ["rock", "paper", "scissors", "lizard", "spock"];
 
@@ -12,12 +13,18 @@ for (let button of buttons){
         playGame(playerChoice);
     });
 }
+/**
+ * Reset Game 
+ */
+reset.addEventListener('click', function() {
+    window.location.reload();
+});
 
 /** 
  * This function runs the game, displays the images of the players choice 
  * and a random image for computer choice. It then calls a funtion to check results.
  */
-function playGame(playerChoice){
+function playGame(playerChoice) {
 
     playerImage.src=`assets/images/${options[playerChoice]}.jpg`;
     playerImage.alt=options[playerChoice];
@@ -31,6 +38,7 @@ function playGame(playerChoice){
 
     checkWinner(player, computer);
 }
+
 /**
  * This function takes in parameters player and computer, two srtings which are the choices,
  * it then adds both strings are one and compares to work out who won.
@@ -82,36 +90,43 @@ function checkWinner(player,computer) {
         default:
             console.log("error");
 }
-
+/**
+ * If the player won this function displays text "You Won"
+ */
 function displayPlayerWinner(){
     let winner = document.getElementById("result-display");
     winner.textContent = "You Won!!";
 }
-
+/**
+ * If the computer won this function dsiplays text "Computer Wins"
+ */
 function displayComputerWinner(){
     let winner = document.getElementById("result-display");
     winner.textContent = "Computer Wins!!";
+    winner.style.alignContent = "centre";
 
 }
+/**
+ * If it is a draw A Draw is displayed
+ */
 function displayDraw(){
     let winner = document.getElementById("result-display");
     winner.textContent = "A Draw!!";
 }
 
+/**
+ * Increments players score by 1 each time they win
+ */
 function incrementPlayerScore(){
     let oldScore = parseInt(document.getElementById('player-result').innerText);
     document.getElementById('player-result').innerText = ++oldScore;
 }
-
+/**
+ * Increments computers score each time it wins
+ */
 function incrementComputerScore(){
     let oldScore = parseInt(document.getElementById('computer-result').innerText);
     document.getElementById('computer-result').innerText = ++oldScore;
 }
-/*function handleEvent(event){
-
-}
-function gaameCounter(){
-
-}*/
 
 }

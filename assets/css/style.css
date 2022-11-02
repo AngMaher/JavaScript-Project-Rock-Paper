@@ -61,6 +61,11 @@ header a{
     background-color: #10115e;
 }
 
+#reset {
+   background-color: antiquewhite;
+   color:#26312c; 
+}
+
 .player-area {
    float: left;
    width: 45%;
@@ -82,19 +87,19 @@ header a{
     width: 60%;
 }
 #result-display {
-    margin: 0 auto;
-    bottom: 10%;
+    left: 45%;
+    bottom: 50%;
     font-size: 200%;
     font-weight: 700;
-    position: absolute;
+    position:fixed;
 }
 
 footer{
     height: 25px;
     text-align: center;
-    font-size: 120%;
+    font-size: 100%;
     color:antiquewhite;
-    margin: 10px;
+    margin: 0 auto;
     position: fixed;
 }
 
@@ -192,5 +197,6 @@ footer{
         margin-left: 0;
         width: 70px;
         padding: 5px;
+        bottom: 0;
     }
 }
