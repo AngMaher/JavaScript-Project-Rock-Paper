@@ -161,7 +161,7 @@ footer{
     }
     #rules-section{
         width: 60%;
-        height: 800px;
+        height: 1500px;
     }
 }
 
@@ -172,12 +172,18 @@ footer{
     header p{
         margin: 0;
     }
+    #hero-image{
+        background: none;
+    }
     #game-section button{
         margin-left: 90px;
     }
     #game-section{
         background-color: transparent;
     }  
+    #game-section h2{
+        font-size: 200%;
+    }
     #rules-section{
         height: 1000px;
         width: 80%;
