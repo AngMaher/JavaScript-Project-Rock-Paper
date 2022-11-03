@@ -62,7 +62,8 @@ function checkWinner(player,computer) {
         case "lizardpaper":
             displayPlayerWinner();
             incrementPlayerScore();
-            console.log("You Win");
+            incrementNumOfGoes();
+            /*console.log("You Win");*/
         break;
     
     	case "paperscissors":
@@ -77,7 +78,7 @@ function checkWinner(player,computer) {
         case "paperlizard":
             displayComputerWinner();
             incrementComputerScore();
-            console.log("Computer wins");
+            incrementNumOfGoes();
         break;
 
         case "scissorsscissors":
@@ -86,7 +87,8 @@ function checkWinner(player,computer) {
         case "lizardlizard":
         case "spockspock":
             displayDraw();
-            console.log("its a draw");
+            incrementNumOfGoes();
+            /*console.log("its a draw");*/
         break;
 
         default:
@@ -97,7 +99,7 @@ function checkWinner(player,computer) {
  */
 function displayPlayerWinner(){
     let winner = document.getElementById("result-display");
-    winner.textContent = "You Won!!";
+    winner.textContent = "You Win!!";
 }
 /**
  * If the computer won this function dsiplays text "Computer Wins"
@@ -105,7 +107,7 @@ function displayPlayerWinner(){
 function displayComputerWinner(){
     let winner = document.getElementById("result-display");
     winner.textContent = "CPU Wins!!";
-    winner.style.margin;
+    winner.style.margin=0;
 
 }
 /**
@@ -123,12 +125,43 @@ function incrementPlayerScore(){
     let oldScore = parseInt(document.getElementById('player-result').innerText);
     document.getElementById('player-result').innerText = ++oldScore;
 }
+
+function incrementNumOfGoes(){
+    let oldScore = parseInt(document.getElementById('num-of-goes').innerText);
+    if (oldScore < 15){
+         document.getElementById('num-of-goes').innerText = ++oldScore;
+    } else if (oldScore === 15){
+        checkOverallWinner();
+    } else{
+        console.log("error counting up");
+    }
+
+}
 /**
  * Increments computers score each time it wins
  */
 function incrementComputerScore(){
     let oldScore = parseInt(document.getElementById('computer-result').innerText);
     document.getElementById('computer-result').innerText = ++oldScore;
+}
+
+
+function checkOverallWinner(){
+    let playerOverallScore = parseInt(document.getElementById('player-result').innerText);
+    let computerOverallScore = parseInt(document.getElementById('computer-result').innerText);
+    
+    console.log(playerOverallScore);
+    console.log(computerOverallScore);
+    
+    if (playerOverallScore < computerOverallScore){
+        console.log("computer wins overall");
+    } else if (playerOverallScore > computerOverallScore) {
+        console.log("You are the overall winner");
+    } else if (playerOverallScore === computerOverallScore){
+        console.log("Its a draw");
+    } else {   console.log("error");
+    }
+
 }
 
 }

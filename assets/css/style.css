@@ -46,7 +46,7 @@ header a{
     margin-top: 5px;
 }
 
-#game-section button {
+.btn-choice {
     padding: 15px;
     border-radius: 10%;
     margin-left: 80px;
@@ -58,12 +58,27 @@ header a{
 }
 
 #game-section  button:hover{
-    background-color: #10115e;
+    background-color: #46466b;
 }
+#reset{
+    padding: 15px;
+    border-radius: 10%;
+    margin-left: 80px;
+    margin-bottom: 30px;
+    width:100px;
+    background-color: rgb(28, 42, 54);
+    color:antiquewhite;
+    left: 5%;
+    bottom: 0%;
+    position: absolute;
+}   
 
-#reset {
-   background-color: antiquewhite;
-   color:#26312c; 
+.fifteen-goes{
+    font-size: 200%;
+    float: right;
+    bottom: 5%;
+    right: 10%;
+    position: absolute;
 }
 
 .player-area {
@@ -185,10 +200,12 @@ footer{
     border:2px solid rgb(28, 42, 54);
     box-shadow: 10px 10px 8px #26312c;
     color:antiquewhite;
-    
     }  
     #game-section h2{
         font-size: 200%;
+    }
+    .fifteen-goes{
+        font-size: 150%;
     }
     #rules-section{
         width: 100%;
@@ -219,5 +236,8 @@ footer{
         width: 70px;
         padding: 5px;
         bottom: 0;
+    }
+    .fifteen-goes{
+        font-size: 120%;
     }
 }
