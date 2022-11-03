@@ -7,15 +7,14 @@ let reset = document.getElementById('reset');
 
 let options = ["rock", "paper", "scissors", "lizard", "spock"];
 
+/* adds event listeners to each button using a for loop*/
 for (let button of buttons){
     button.addEventListener('click', function (){
         let playerChoice = this.getAttribute("data-choice");
         playGame(playerChoice);
     });
 }
-/**
- * Reset Game 
- */
+/* adds eventlistener to the rest button and creates a function to Reset the Game */
 reset.addEventListener('click', function() {
     window.location.reload();
 });
@@ -63,7 +62,7 @@ function checkWinner(player,computer) {
             displayPlayerWinner();
             incrementPlayerScore();
             incrementNumOfGoes();
-            /*console.log("You Win");*/
+            console.log("You Win");
         break;
     
     	case "paperscissors":
@@ -79,6 +78,7 @@ function checkWinner(player,computer) {
             displayComputerWinner();
             incrementComputerScore();
             incrementNumOfGoes();
+            console.log("computer wins");
         break;
 
         case "scissorsscissors":
@@ -88,7 +88,7 @@ function checkWinner(player,computer) {
         case "spockspock":
             displayDraw();
             incrementNumOfGoes();
-            /*console.log("its a draw");*/
+            console.log("its a draw");
         break;
 
         default:
@@ -125,7 +125,9 @@ function incrementPlayerScore(){
     let oldScore = parseInt(document.getElementById('player-result').innerText);
     document.getElementById('player-result').innerText = ++oldScore;
 }
-
+/**
+ * Increments the number of goes until it hits the end of the game
+ */
 function incrementNumOfGoes(){
     let oldScore = parseInt(document.getElementById('num-of-goes').innerText);
     if (oldScore < 15){
@@ -137,6 +139,7 @@ function incrementNumOfGoes(){
     }
 
 }
+
 /**
  * Increments computers score each time it wins
  */
@@ -145,8 +148,12 @@ function incrementComputerScore(){
     document.getElementById('computer-result').innerText = ++oldScore;
 }
 
-
+/**
+ * This function take the scores of both the player and computer after 15 goes
+ * checks who has the most and declares an overall winner.
+ */
 function checkOverallWinner(){
+
     let playerOverallScore = parseInt(document.getElementById('player-result').innerText);
     let computerOverallScore = parseInt(document.getElementById('computer-result').innerText);
     
@@ -159,9 +166,10 @@ function checkOverallWinner(){
         console.log("You are the overall winner");
     } else if (playerOverallScore === computerOverallScore){
         console.log("Its a draw");
-    } else {   console.log("error");
+    } else {   
+        console.log("error");
     }
-
+    window.location.reload();
 }
 
 }
