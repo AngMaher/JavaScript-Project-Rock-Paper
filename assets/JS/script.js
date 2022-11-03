@@ -26,15 +26,17 @@ reset.addEventListener('click', function() {
  */
 function playGame(playerChoice) {
 
-    playerImage.src=`assets/images/${options[playerChoice]}.jpg`;
-    playerImage.alt=options[playerChoice];
+    playerImage.src = `assets/images/${options[playerChoice]}.jpg`;
+    playerImage.alt = options[playerChoice];
+    playerImage.className = 'circle';
 
     let computerChoice = Math.floor(Math.random()*5);
 
-    computerImage.src=`assets/images/${options[computerChoice]}.jpg`;
-    computerImage.alt=options[computerChoice];
-    let player=options[playerChoice];
-    let computer=options[computerChoice];
+    computerImage.src = `assets/images/${options[computerChoice]}.jpg`;
+    computerImage.alt = options[computerChoice];
+    computerImage.className = 'circle';
+    let player = options[playerChoice];
+    let computer = options[computerChoice];
 
     checkWinner(player, computer);
 }
@@ -102,8 +104,8 @@ function displayPlayerWinner(){
  */
 function displayComputerWinner(){
     let winner = document.getElementById("result-display");
-    winner.textContent = "Computer Wins!!";
-    winner.style.margin
+    winner.textContent = "CPU Wins!!";
+    winner.style.margin;
 
 }
 /**

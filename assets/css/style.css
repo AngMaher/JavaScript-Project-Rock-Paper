@@ -3,26 +3,26 @@ body {
     font-family: monospace;
 }
 
-header h3{
+header h1{
     float: left;
     color:antiquewhite;
     font-weight: 700;
     padding:15px;
-    font-size: 200%;
+    font-size: 300%;
 }
 header p{
     float: right;
     color:antiquewhite;
     font-weight: 700;
     padding:30px;
-    font-size: 150%;
+    font-size: 200%;
 }
 header a{
     color:antiquewhite;
 }
 #hero-image{
     width: 100%;
-    height: 900px;
+    height: 1000px;
     background: url(../images/hero-image1.webp) no-repeat center center;
     background-size: cover;
 }
@@ -39,7 +39,7 @@ header a{
     position:absolute;
 }
 
-#game-section h1{
+#game-section h2{
     font-size: 250%;
     word-spacing: 15px;
     text-align: center;
@@ -70,9 +70,11 @@ header a{
    float: left;
    width: 45%;
    text-align: center;
-   font-size: 130%;
+   font-size: 150%;
 }
-
+.circle{
+    border-radius: 50%;
+}
 #player-image{
     width: 60%;
 }
@@ -80,7 +82,7 @@ header a{
     float: right;
     width: 45%;
     text-align: center;
-    font-size: 130%;
+    font-size: 150%;
 }
 
 #computer-image{
@@ -91,7 +93,7 @@ header a{
     bottom: 50%;
     font-size: 200%;
     font-weight: 700;
-    position:fixed;
+    position: absolute;
 }
 
 footer{
@@ -161,7 +163,7 @@ footer{
     }
     #rules-section{
         width: 60%;
-        height: 1500px;
+        height: 1600px;
     }
 }
 
@@ -179,26 +181,34 @@ footer{
         margin-left: 90px;
     }
     #game-section{
-        background-color: transparent;
+    background-color: #47598a;
+    border:2px solid rgb(28, 42, 54);
+    box-shadow: 10px 10px 8px #26312c;
+    color:antiquewhite;
+    
     }  
     #game-section h2{
         font-size: 200%;
     }
     #rules-section{
-        height: 1000px;
-        width: 80%;
+        width: 100%;
     }
 }
 @media screen and (max-width: 650px){
+    #game-section button{
+        margin-left: 150px;
+    }
     #game-section{
         width: 100%;
-        margin: 0;
+        margin: 15px;
         padding: 0;
         left: 0;
-        bottom: 50px;
     }
     #game-section button{
         margin-left: 30px;
+    }
+    #result-display{
+        font-size: 100%;
     }
 }
     
