@@ -138,6 +138,7 @@ footer{
         height: 1100px;
     }
     #game-section{
+        top: 30%;
         width: 60%;
         left: 350px;
     }
@@ -157,7 +158,6 @@ footer{
     #game-section{
         width: 90%;
         left: 20px;
-        bottom: 50px;
     }
     #rules-section{
         width: 60%;
@@ -177,9 +177,7 @@ footer{
     }
     #game-section{
         background-color: transparent;
-        color: #faebd7;
-        bottom: 0;
-    }
+    }  
     #rules-section{
         height: 1000px;
         width: 80%;
