@@ -137,7 +137,6 @@ function incrementNumOfGoes(){
     } else{
         console.log("error counting up");
     }
-
 }
 
 /**
@@ -161,15 +160,43 @@ function checkOverallWinner(){
     console.log(computerOverallScore);
     
     if (playerOverallScore < computerOverallScore){
+        computerWinner();
         console.log("computer wins overall");
     } else if (playerOverallScore > computerOverallScore) {
+        playerWinner();
         console.log("You are the overall winner");
     } else if (playerOverallScore === computerOverallScore){
+        overallDraw();
         console.log("Its a draw");
     } else {   
         console.log("error");
     }
-    window.location.reload();
 }
 
+function computerWinner(){
+    let computerWinner = document.getElementById('game-section');
+    computerWinner.innerHTML=`<h1>The comptuer wins, better luck next time</h1><br><br><br><div><img src="assets/images/sadstartrek.jpeg" height = "300" width = "300">
+                                </div><br><button id="reset" type="reset">Reset</button>`;
+    computerWinner.style.backgroundColor = "rgb(94, 214, 110, 0.8)";
+    computerWinner.style.fontSize = "200%";
+    computerWinner.style.textAlign = "center";
+}
+
+function playerWinner(){
+    let playerWinner = document.getElementById('game-section');
+    playerWinner.innerHTML=`<h1>You won!! Congrats</h1><br><br><br><div><img src="assets/images/happystartrek.png" height = "300" width = "300">
+                                </div><br><button id="reset" type="reset">Reset</button>`;
+    playerWinner.style.backgroundColor = "rgb(94, 214, 110, 0.8)";
+    playerWinner.style.fontSize = "200%";
+    playerWinner.style.textAlign = "center";
+}
+
+function overallDraw(){
+    let overallDraw = document.getElementById('game-section');
+    overallDraw.innerHTML=`<h1>It's a Draw, press reset for a rematch!</h1><br><br><br><div><img src="assets/images/" height = "300" width = "400">
+                                </div><br><button id="reset" type="reset">Reset</button>`;
+    overallDraw.style.backgroundColor = "rgb(94, 214, 110, 0.8)";
+    overallDraw.style.fontSize = "200%";
+    overallDraw.style.textAlign = "center";
+}
 }
