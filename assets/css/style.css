@@ -169,16 +169,16 @@ footer{
     #game-section {
         left: 200px;
     }
+    #rules-section{
+        width: 60%;
+        height: 1600px;
+    }
 }
 
 @media screen and (max-width: 1000px){
     #game-section{
         width: 90%;
         left: 20px;
-    }
-    #rules-section{
-        width: 60%;
-        height: 1600px;
     }
 }
 
@@ -240,9 +240,12 @@ footer{
     .fifteen-goes{
         font-size: 120%;
     }
-@media screen and (max-width: 350px){
-    header h1{
-        font-size: 200%;
+@media screen and (max-width: 380px){
+    header{
+        font-size: 80%;
+    }
+    #header h1{
+        margin-bottom: 0;
     }
 }
 }

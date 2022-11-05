@@ -130,9 +130,9 @@ function incrementPlayerScore(){
  */
 function incrementNumOfGoes(){
     let oldScore = parseInt(document.getElementById('num-of-goes').innerText);
-    if (oldScore < 15){
+    if (oldScore < 20){
          document.getElementById('num-of-goes').innerText = ++oldScore;
-    } else if (oldScore === 15){
+    } else if (oldScore === 20){
         checkOverallWinner();
     } else{
         console.log("error counting up");
@@ -175,28 +175,56 @@ function checkOverallWinner(){
 
 function computerWinner(){
     let computerWinner = document.getElementById('game-section');
-    computerWinner.innerHTML=`<h1>The comptuer wins, better luck next time</h1><br><br><br><div><img src="assets/images/sadstartrek.jpeg" height = "300" width = "300">
-                                </div><br><button id="reset" type="reset">Reset</button>`;
+    computerWinner.innerHTML=`<h1>The comptuer wins, better luck next time</h1><br><div><img src="assets/images/sadstartrek.jpeg" height = "40%" width = "40%">
+                                </div><br><button id="resetgame" type="reset">Reset</button>`;
     computerWinner.style.backgroundColor = "rgb(94, 214, 110, 0.8)";
     computerWinner.style.fontSize = "200%";
     computerWinner.style.textAlign = "center";
+
+    resetgame.style.backgroundColor = "rgb(28, 42, 54)";
+    resetgame.style.color = "antiquewhite";
+    resetgame.style.height = "40px";
+    resetgame.style.width = "60px";
+    
+    resetgame.addEventListener('click', function(){
+        window.location.reload();
+    });
 }
 
 function playerWinner(){
     let playerWinner = document.getElementById('game-section');
-    playerWinner.innerHTML=`<h1>You won!! Congrats</h1><br><br><br><div><img src="assets/images/happystartrek.png" height = "300" width = "300">
-                                </div><br><button id="reset" type="reset">Reset</button>`;
+    playerWinner.innerHTML=`<h1>You won!! Congrats</h1><br><div><img src="assets/images/happystartrek.png" height = "40%" width = "40%">
+                                </div><br><button id="resetgame" type="reset">Reset</button>`;
     playerWinner.style.backgroundColor = "rgb(94, 214, 110, 0.8)";
     playerWinner.style.fontSize = "200%";
     playerWinner.style.textAlign = "center";
+
+    resetgame.style.backgroundColor = "rgb(28, 42, 54)";
+    resetgame.style.color = "antiquewhite";
+    resetgame.style.height = "40px";
+    resetgame.style.width = "60px";
+
+    resetgame.addEventListener('click', function(){
+        window.location.reload();
+    });
+
 }
 
 function overallDraw(){
     let overallDraw = document.getElementById('game-section');
-    overallDraw.innerHTML=`<h1>It's a Draw, press reset for a rematch!</h1><br><br><br><div><img src="assets/images/" height = "300" width = "400">
-                                </div><br><button id="reset" type="reset">Reset</button>`;
+    overallDraw.innerHTML=`<h1>It's a Draw, press reset for a rematch!</h1><br><div><img src="assets/images/shakinghands.jpg" height = "40%" width = "60%">
+                                </div><br><button id="resetgame" type="reset">Reset</button>`;
     overallDraw.style.backgroundColor = "rgb(94, 214, 110, 0.8)";
     overallDraw.style.fontSize = "200%";
     overallDraw.style.textAlign = "center";
+
+    resetgame.style.backgroundColor = "rgb(28, 42, 54)";
+    resetgame.style.color = "antiquewhite";
+    resetgame.style.height = "40px";
+    resetgame.style.width = "60px";
+
+    resetgame.addEventListener('click', function(){
+        window.location.reload();
+    });
 }
 }
