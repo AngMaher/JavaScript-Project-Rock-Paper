@@ -239,7 +239,7 @@ footer{
     
 @media screen and (max-width: 450px) {
     #game-section{
-        top: 35%;
+        top: 32%;
     }
     #game-section button{
         float: none;

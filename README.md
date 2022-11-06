@@ -16,7 +16,7 @@ The live website can be accessed on this link:  [Live Link](https://angmaher.git
 
 * User Goals
     * As a User I want to know by seeing the site for the first time, what the game is.
-    * As a User I what to be able to read the rules of the game.
+    * As a User I want to be able to read the rules of the game.
     * As a User I want to see clearing my choice and if I won.
     * As a User I want to be able to reset or exit the game whenever I want.
 
@@ -44,7 +44,7 @@ antiquewhite rgb(28, 42, 54)
     * The header section contains the title of the game, in a clear bright colour against the darker background.
     * The header also contains a link to the rules of the game and information about the game.
 
-    ![insert](insert image here)
+    ![header](/assets/images/readme-images/header.png)
 
 * Game Selection Area
     * The game area contains a title inviting the player to "Let's Play".
