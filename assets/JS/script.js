@@ -130,9 +130,9 @@ function incrementPlayerScore(){
  */
 function incrementNumOfGoes(){
     let oldScore = parseInt(document.getElementById('num-of-goes').innerText);
-    if (oldScore < 20){
+    if (oldScore < 14){
          document.getElementById('num-of-goes').innerText = ++oldScore;
-    } else if (oldScore === 20){
+    } else if (oldScore === 14){
         checkOverallWinner();
     } else{
         console.log("error counting up");

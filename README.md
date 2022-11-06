@@ -3,7 +3,7 @@ Rock, Paper, Scissors, Lizard, Spock is a website designed to host a simple game
 
 To play the game you choose one of five options and the computer randomly chooses an option. The game then saves the scores for both the user and the computer and when you reach 15 goes it tells yoou who the overall winner is.
 
-![Am I responsive image](/assets/images/readme-images/JSamiresponsive.png)
+![Am I responsive image](/assets/images/readme-images/amiresponsive.jpg)
 
 The live website can be accessed on this link:  [Live Link](https://angmaher.github.io/Rock-Paper-Scissors-Lizard-Spock/)
 
