@@ -51,31 +51,30 @@ antiquewhite rgb(28, 42, 54)
     * It also gives instuction to the player to click on the buttons to make your choice.
     * It contains five interactive buttons, which when clicked records the users choice.
     
-    ![insert](insert image here)
+    ![game area](/assets/images/readme-images/game-area.png)
 
 * Game Image Area
     * This section shows the user two images. 
     * When the game has yet to start, it shows in image of all the choices.
     * Once a user clicks a button the images change, on the left had side it shows the users choice. On the right hand side it shows the computers random choice.
 
-    ![insert](insert image here)
 
 * Game Score Area 
     * Underneath the user picture Your score is displayed that increments in value everytime the user wins.
     * Underneath thecomputer picture Computer score is displayed that increments in value everytime the computer wins.
 
-    ![insert](insert image here)
+    ![game image and score area](/assets/images/readme-images/game-image.png)
 
 * Game Results Area
-    * At the bottom of the game area, once the user clicks their choice, a result will appear showing is the user or computer won or if it was a draw.
+    * Between images in the game area, once the user clicks their choice, a result will appear showing is the user or computer won or if it was a draw.
 
     ![insert](insert image here)
 
 * Footer
-    * The footer section - finish
+    * The footer section is a small note on the creation of the site. I didnt want a big overpowering footer
 
 
-    ![insert](insert image here)
+    ![footer](/assets/images/readme-images/footer.png)
 
 * Rules of the game section
     * The rules of the game are displayed on a seperate page, accessible by the link in the header.
@@ -83,7 +82,7 @@ antiquewhite rgb(28, 42, 54)
     * Information about the orgin of the game and how this version came about is included in this section.
     * There is a link at the bottom of this section to bring the user back to the game page.
 
-    ![insert](insert image here)
+    ![rules](/assets/images/readme-images/rules.png)
 
 ### Features left to Implement
 

@@ -2,7 +2,7 @@ body {
     background-color: rgb(56, 60, 110);
     font-family: monospace;
 }
-
+/*header styling*/
 header h1{
     float: left;
     color:antiquewhite;
@@ -20,13 +20,16 @@ header p{
 header a{
     color:antiquewhite;
 }
+header a:hover{
+    background-color: rgb(38, 49, 44, .8);
+}
+/* hero image amd game section*/
 #hero-image{
     width: 100%;
     height: 1000px;
     background: url(../images/hero-image1.webp) no-repeat center center;
     background-size: cover;
 }
-
 #game-section {
     width: 50%;
     height: 600px;
@@ -38,14 +41,12 @@ header a{
     border-radius: 10%;
     position:absolute;
 }
-
 #game-section h2{
     font-size: 250%;
     word-spacing: 15px;
     text-align: center;
     margin-top: 5px;
 }
-
 .btn-choice {
     padding: 15px;
     border-radius: 10%;
@@ -56,7 +57,6 @@ header a{
     color:antiquewhite;
     float: left;
 }
-
 #game-section  button:hover{
     background-color: #46466b;
 }
@@ -72,7 +72,6 @@ header a{
     bottom: 0%;
     position: absolute;
 }   
-
 .fifteen-goes{
     font-size: 200%;
     float: right;
@@ -80,7 +79,6 @@ header a{
     right: 10%;
     position: absolute;
 }
-
 .player-area {
    float: left;
    width: 45%;
@@ -99,7 +97,6 @@ header a{
     text-align: center;
     font-size: 150%;
 }
-
 #computer-image{
     width: 60%;
 }
@@ -110,16 +107,15 @@ header a{
     font-weight: 700;
     position: absolute;
 }
-
+/*footer*/
 footer{
-    height: 25px;
+    height: 30x;
     text-align: center;
     font-size: 100%;
     color:antiquewhite;
     margin: 0 auto;
-    position: fixed;
 }
-
+/*Rules of the game page*/
 #rules-section{
     background-color: #47598a;
     height: 1600px;
@@ -137,18 +133,16 @@ footer{
     line-height: 30px;
 
 }
-
 #rules-section h2{
     color:#191f1c;
 }
-
 #home-link {
     color:antiquewhite;
 }
 #home-link:hover{
     background-color: rgb(38, 49, 44, .8);
 }
-
+/*Media quries section*/
 @media screen and (max-width: 1800px) {
 
     #hero-image{
@@ -164,7 +158,6 @@ footer{
         margin-left: 40px;
     }
 }
-
 @media screen and (max-width: 1350px) {
     #game-section {
         left: 200px;
@@ -172,13 +165,12 @@ footer{
     #rules-section{
         width: 60%;
     }
+}
 @media screen and (max-width: 1170px) {
     #game-section button{
         margin-left: 20px;
     }
 }
-}
-
 @media screen and (max-width: 1000px){
     #game-section{
         width: 90%;
@@ -188,8 +180,6 @@ footer{
         margin-bottom: 0;
     }
 }
-
-
 @media screen and (max-width: 800px){
     header h3{
         margin: 0;
@@ -236,7 +226,6 @@ footer{
         font-size: 120%;
     }
 }
-    
 @media screen and (max-width: 450px) {
     #game-section{
         top: 32%;
@@ -252,4 +241,3 @@ footer{
         font-size: 70%;
     }
 }
-
