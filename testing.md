@@ -4,7 +4,7 @@
 ### User Goals
 
 | User Goals | Requirement met |
-| ... | ... |
+| --- | --- |
 | As a User I want to know by seeing the site for the first time, what the game is. | Yes |
 | As a User I want to be able to read the rules of the game. | Yes |
 | As a User I want to see clearing my choice and if I won. | Yes |

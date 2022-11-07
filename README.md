@@ -107,9 +107,9 @@ antiquewhite rgb(28, 42, 54)
 ## Testing
 * to see testing please click [Here](testing.md)
 
-## Bugs
-
 ## Deployment
+
+
 
 ## Credits
 
