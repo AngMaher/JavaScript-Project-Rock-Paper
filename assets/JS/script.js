@@ -178,7 +178,7 @@ function computerWinner(){
     computerWinner.innerHTML=`<h1>The comptuer wins, better luck next time</h1><br><div><img src="assets/images/sadstartrek.jpeg" height = "40%" width = "40%">
                                 </div><br><button id="resetgame" type="reset">Reset</button>`;
     computerWinner.style.backgroundColor = "rgb(94, 214, 110, 0.8)";
-    computerWinner.style.fontSize = "200%";
+    computerWinner.style.fontSize = "150%";
     computerWinner.style.textAlign = "center";
 
     resetgame.style.backgroundColor = "rgb(28, 42, 54)";
@@ -193,10 +193,10 @@ function computerWinner(){
 
 function playerWinner(){
     let playerWinner = document.getElementById('game-section');
-    playerWinner.innerHTML=`<h1>You won!! Congrats</h1><br><div><img src="assets/images/happystartrek.png" height = "40%" width = "40%">
+    playerWinner.innerHTML=`<h1>You Won!! Congrats</h1><br><div><img src="assets/images/happystartrek.png" height = "40%" width = "40%">
                                 </div><br><button id="resetgame" type="reset">Reset</button>`;
     playerWinner.style.backgroundColor = "rgb(94, 214, 110, 0.8)";
-    playerWinner.style.fontSize = "200%";
+    playerWinner.style.fontSize = "150%";
     playerWinner.style.textAlign = "center";
 
     resetgame.style.backgroundColor = "rgb(28, 42, 54)";
@@ -215,7 +215,7 @@ function overallDraw(){
     overallDraw.innerHTML=`<h1>It's a Draw, press reset for a rematch!</h1><br><div><img src="assets/images/shakinghands.jpg" height = "40%" width = "60%">
                                 </div><br><button id="resetgame" type="reset">Reset</button>`;
     overallDraw.style.backgroundColor = "rgb(94, 214, 110, 0.8)";
-    overallDraw.style.fontSize = "200%";
+    overallDraw.style.fontSize = "150%";
     overallDraw.style.textAlign = "center";
 
     resetgame.style.backgroundColor = "rgb(28, 42, 54)";

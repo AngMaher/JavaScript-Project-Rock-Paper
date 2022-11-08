@@ -1,6 +1,6 @@
 body {
     background-color: rgb(56, 60, 110);
-    font-family: monospace;
+    font-family: Space Mono;
 }
 /*header styling*/
 header h1{
@@ -8,14 +8,14 @@ header h1{
     color:antiquewhite;
     font-weight: 700;
     padding:15px;
-    font-size: 300%;
+    font-size: 200%;
 }
 header p{
     float: right;
     color:antiquewhite;
     font-weight: 700;
     padding: 15px;
-    font-size: 200%;
+    font-size: 150%;
 }
 header a{
     color:antiquewhite;
@@ -42,7 +42,7 @@ header a:hover{
     position:absolute;
 }
 #game-section h2{
-    font-size: 250%;
+    font-size: 200%;
     word-spacing: 15px;
     text-align: center;
     margin-top: 5px;
@@ -83,7 +83,7 @@ header a:hover{
    float: left;
    width: 45%;
    text-align: center;
-   font-size: 150%;
+   font-size: 100%;
 }
 .circle{
     border-radius: 50%;
@@ -95,7 +95,7 @@ header a:hover{
     float: right;
     width: 45%;
     text-align: center;
-    font-size: 150%;
+    font-size: 100%;
 }
 #computer-image{
     width: 60%;
@@ -130,7 +130,7 @@ footer{
 
     text-align: center;
     color:antiquewhite;
-    font-size: 150%;
+    font-size: 130%;
     line-height: 30px;
 
 }
@@ -201,10 +201,10 @@ footer{
     color:antiquewhite;
     }  
     #game-section h2{
-        font-size: 200%;
+        font-size: 150%;
     }
     .fifteen-goes{
-        font-size: 150%;
+        font-size: 130%;
     }
     #rules-section{
         width: 100%;
@@ -221,10 +221,10 @@ footer{
         bottom: 50%;
     }
     #result-display{
-        font-size: 100%;
+        font-size: 70%;
     }
     .fifteen-goes{
-        font-size: 120%;
+        font-size: 100%;
     }
 }
 @media screen and (max-width: 450px) {
@@ -239,6 +239,9 @@ footer{
         bottom: 0;
     }
     header{
-        font-size: 70%;
+        font-size: 60%;
+    }
+    #rules-section{
+        height: 2000px;
     }
 }
