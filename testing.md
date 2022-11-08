@@ -29,7 +29,8 @@
 * Second page for the rules I recieved 87% mainly because it didnt like the idea of the box and background colour being so close, but that is actually the look I was going for.
 ![lighthouse rules page](/assets/images/readme-images/lighthouserules.png)
 
-### 
+### Device Testing
+* I tested on multiple devices 
 
 
 ## Bugs
