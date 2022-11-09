@@ -25,9 +25,9 @@ The live website can be accessed on this link:  [Live Link](https://angmaher.git
 ### Colour Palette
 * A dark blue background was choosen against and off white colour for the game area. 
 
-insert colors used:
+Main Colours Used:
 
-antiquewhite rgb(28, 42, 54)
+antiquewhite, rgb(28, 42, 54)
 
 ### Typography
 * I used google fonts to select and use Monospace as I feel it gives a space feel to the site.
@@ -68,7 +68,6 @@ antiquewhite rgb(28, 42, 54)
 * Game Results Area
     * Between images in the game area, once the user clicks their choice, a result will appear showing is the user or computer won or if it was a draw.
 
-    ![insert](insert image here)
 
 * Footer
     * The footer section is a small note on the creation of the site. I didnt want a big overpowering footer

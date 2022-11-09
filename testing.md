@@ -35,10 +35,12 @@
 | Device | Screenshot |
 | --- | --- |
 | 17" Laptop | ![laptop](/assets/images/readme-images/Laptop17.png) |
-| Samgung S21 | ![laptop](/assets/images/readme-images/samsungs21.jpg) |
-| Ipad mini | ![laptop](/assets/images/readme-images/samsungs21.jpg) |
-| Ipad | ![laptop](/assets/images/readme-images/samsungs21.jpg) |
-| Samsung s10 | ![laptop](/assets/images/readme-images/samsungs21.jpg) |
+| Samgung S21 | ![samsumg s21](/assets/images/readme-images/samsungs21.jpg) |
+| Ipad mini | ![ipad mini](/assets/images/readme-images/ipad-mini.jpg) |
+| Ipad | ![ipad](/assets/images/readme-images/samsungs21.jpg) |
+| Samsung s10 | ![samsumg s10](/assets/images/readme-images/samsungs21.jpg) |
+| iphone x | ![iphone x](/assets/images/readme-images/samsungs21.jpg) |
+| iphone 14 |![iphone 14](/assets/images/readme-images/samsungs21.jpg) |
 
 ## Bugs
 

@@ -64,6 +64,7 @@ header a:hover{
 #reset{
     padding: 15px;
     border-radius: 10%;
+    border-color: rgb(28, 42, 54);
     margin-left: 80px;
     margin-bottom: 30px;
     width:100px;
@@ -213,7 +214,7 @@ footer{
 }
 @media screen and (max-width: 650px){
     #game-section button{
-        margin-left: 30px;
+        margin-left: 80px;
     }
     #game-section{
         margin: 15px;
@@ -228,7 +229,7 @@ footer{
         font-size: 100%;
     }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 600px) {
     #game-section{
         top: 32%;
     }
