@@ -86,7 +86,7 @@ antiquewhite, rgb(28, 42, 54)
 ### Features left to Implement
 
 * I would like to include maybe a timer or a quiz
-* Graphic and Animation
+* I  would also add music and more listening events if I had more time.
 
 ## Technologies Used
 
@@ -104,12 +104,25 @@ antiquewhite, rgb(28, 42, 54)
     * Font Awesome
 
 ## Testing
-* to see testing please click [Here](testing.md)
+* To see testing please click [Here](testing.md)
 
 ## Deployment
 
+* I used Gitpod to develop the website and was deployed using GitHub pages.
+    * In the Github repository, navigate to the Settings tab.
+    * From the source section drop-down box, select **main** branch and hit **save**
+    * Once this has been done the the page will automatically refresh with a link to the site to show your site is live.
+    * Please find a link to the Live site here: [Rock Paper Scissor Lizard Spock](https://angmaher.github.io/Rock-Paper-Scissors-Lizard-Spock/)
 
 ## Credits
 
+* I used google fonts for the font space mono.
+* The video used was downloaded from youtube.
+* The rules of the game were quoted from the show that it orignally appeared.
+* I used the Portfolio Project Scope video to help start me off as I was doing the same project.
+* I used the Love Maths project as a reference throughout the project.
+* Images used were downloaded from google.
+
 ## Acknowledgements
 
+* I would like to thank my mentor Jubril for checking my project was done and giving me the go ahead to submit.

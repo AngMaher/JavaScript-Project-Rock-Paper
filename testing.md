@@ -38,9 +38,9 @@
 | Samgung S21 | ![samsumg s21](/assets/images/readme-images/samsungs21.jpg) |
 | Ipad mini | ![ipad mini](/assets/images/readme-images/ipad-mini.jpg) |
 | Ipad | ![ipad](/assets/images/readme-images/samsungs21.jpg) |
-| Samsung s10 | ![samsumg s10](/assets/images/readme-images/samsungs21.jpg) |
-| iphone x | ![iphone x](/assets/images/readme-images/samsungs21.jpg) |
-| iphone 14 |![iphone 14](/assets/images/readme-images/samsungs21.jpg) |
+| Samsung S10e | ![samsumg s10e](/assets/images/readme-images/samsungs10e.jpg) |
+| iphone x | ![iphone x](/assets/images/readme-images/iphonex.jpg) |
+| iphone 13 |![iphone 14](/assets/images/readme-images/iphone13.jpg) |
 
 ## Bugs
 
