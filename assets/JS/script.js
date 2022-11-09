@@ -175,7 +175,7 @@ function checkOverallWinner(){
 
 function computerWinner(){
     let computerWinner = document.getElementById('game-section');
-    computerWinner.innerHTML=`<h1>The comptuer wins, better luck next time</h1><br><div><img src="assets/images/sadstartrek.jpeg" height = "40%" width = "40%">
+    computerWinner.innerHTML=`<h1>The comptuer wins, better luck next time</h1><br><div><img src="assets/images/sadstartrek.jpeg" alt="emoji of sad La Forge" height = "40%" width = "40%">
                                 </div><br><button id="resetgame" type="reset">Reset</button>`;
     computerWinner.style.backgroundColor = "rgb(94, 214, 110, 0.8)";
     computerWinner.style.fontSize = "150%";
@@ -193,7 +193,7 @@ function computerWinner(){
 
 function playerWinner(){
     let playerWinner = document.getElementById('game-section');
-    playerWinner.innerHTML=`<h1>You Won!! Congrats</h1><br><div><img src="assets/images/happystartrek.png" height = "40%" width = "40%">
+    playerWinner.innerHTML=`<h1>You Won!! Congrats</h1><br><div><img src="assets/images/happystartrek.png" alt="emoji of spock happy" height = "40%" width = "40%">
                                 </div><br><button id="resetgame" type="reset">Reset</button>`;
     playerWinner.style.backgroundColor = "rgb(94, 214, 110, 0.8)";
     playerWinner.style.fontSize = "150%";
@@ -212,7 +212,7 @@ function playerWinner(){
 
 function overallDraw(){
     let overallDraw = document.getElementById('game-section');
-    overallDraw.innerHTML=`<h1>It's a Draw, press reset for a rematch!</h1><br><div><img src="assets/images/shakinghands.jpg" height = "40%" width = "60%">
+    overallDraw.innerHTML=`<h1>It's a Draw, press reset for a rematch!</h1><br><div><img src="assets/images/shakinghands.jpg" alt="two emoji characters shanking hands" height = "40%" width = "60%">
                                 </div><br><button id="resetgame" type="reset">Reset</button>`;
     overallDraw.style.backgroundColor = "rgb(94, 214, 110, 0.8)";
     overallDraw.style.fontSize = "150%";

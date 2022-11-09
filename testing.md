@@ -1,17 +1,26 @@
 ## Testing
 [back to README.md](README.md)
 
+### Developer Goals
+
+| Developer Goals | Requirement Met |
+| --- | --- |
+| I want the game to be responsive so the game can be played on all devices. | Yes |
+| I want the game to be clear and simple so any user can follow. | Yes |
+| I wanted to have the site fun and space themed but also simple and clear to understand. | Yes |
+
+
 ### User Goals
 
 | User Goals | Requirement met |
 | --- | --- |
-| As a User I want to know by seeing the site for the first time, what the game is. | Yes |
+| As a User I want to know by seeing the site for the first time, know what the game is. | Yes |
 | As a User I want to be able to read the rules of the game. | Yes |
 | As a User I want to see clearing my choice and if I won. | Yes |
 | As a User I want to be able to reset or exit the game whenever I want. | Yes |
 
 ### W3C Validator
-* The HTML code passed  with no errors through W3C
+* The HTML code passed with no errors through W3C
 
 ![htmlw3c validator](/assets/images/readme-images/HTMLW3C.png)
 
@@ -29,23 +38,25 @@
 * Second page for the rules I recieved 87% mainly because it didnt like the idea of the box and background colour being so close, but that is actually the look I was going for.
 ![lighthouse rules page](/assets/images/readme-images/lighthouserules.png)
 
+### Responsiveness Testing
+* I used Chrome Developer Tools to test for responsiveness of the website. Also tested on Firefox and safari.
+
 ### Device Testing
 * I tested on multiple devices:
 
 | Device | Screenshot |
 | --- | --- |
-| 17" Laptop | ![laptop](/assets/images/readme-images/Laptop17.png) |
-| Samgung S21 | ![samsumg s21](/assets/images/readme-images/samsungs21.jpg) |
-| Ipad mini | ![ipad mini](/assets/images/readme-images/ipad-mini.jpg) |
-| Ipad | ![ipad](/assets/images/readme-images/samsungs21.jpg) |
-| Samsung S10e | ![samsumg s10e](/assets/images/readme-images/samsungs10e.jpg) |
-| iphone x | ![iphone x](/assets/images/readme-images/iphonex.jpg) |
-| iphone 13 |![iphone 14](/assets/images/readme-images/iphone13.jpg) |
+| 17" Laptop | [screenshot laptop](/assets/images/readme-images/Laptop17.png) |
+| Samgung S21 | [screenshot samsumg s21](/assets/images/readme-images/samsungs21.jpg) |
+| Ipad mini | [screenshot ipad mini](/assets/images/readme-images/ipad-mini.jpg) |
+| Ipad | [screenshot ipad](/assets/images/readme-images/samsungs21.jpg) |
+| Samsung S10e | [screenshot samsumg s10e](/assets/images/readme-images/samsungs10e.jpg) |
+| Iphone X | [screenshot iphone X](/assets/images/readme-images/iphonex.jpg) |
+| Iphone 13 | [screenshot iphone 14](/assets/images/readme-images/iphone13.jpg) |
 
 ## Bugs
 
-
-| Bugs Encoutered | Fix |
+| Bugs Encountered | Fix |
 | --- | --- |
 |  Everytime a choice was made, the reset button and the game counter kept moving to different positions each time. | To fix this I had to change the position to absolute, and that worked. |
 |  When testing the overall score, to see who won the best out of 15.  It was't working. It should have added player score and computer score.| I logged the scores to the console and the answer. I could see that a number for player was passing through ok but the value for the computer score was coming back as NaN. I was able to focus on the computer section and found it was missing a curly bracket. Once that was entered it worked. |

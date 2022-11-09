@@ -50,7 +50,7 @@ header a:hover{
 .btn-choice {
     padding: 15px;
     border-radius: 10%;
-    border-color: rgb(28, 42, 54);
+    border-color: rgb(17, 20, 24);
     margin-left: 80px;
     margin-bottom: 30px;
     width:100px;
@@ -64,7 +64,7 @@ header a:hover{
 #reset{
     padding: 15px;
     border-radius: 10%;
-    border-color: rgb(28, 42, 54);
+    border-color: rgb(17, 20, 24);
     margin-left: 80px;
     margin-bottom: 30px;
     width:100px;
@@ -111,7 +111,7 @@ header a:hover{
 }
 /*footer*/
 footer{
-    height: 30x;
+    height: 30px;
     text-align: center;
     font-size: 100%;
     color:antiquewhite;
