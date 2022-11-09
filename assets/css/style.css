@@ -50,6 +50,7 @@ header a:hover{
 .btn-choice {
     padding: 15px;
     border-radius: 10%;
+    border-color: rgb(28, 42, 54);
     margin-left: 80px;
     margin-bottom: 30px;
     width:100px;

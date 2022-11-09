@@ -30,8 +30,15 @@
 ![lighthouse rules page](/assets/images/readme-images/lighthouserules.png)
 
 ### Device Testing
-* I tested on multiple devices 
+* I tested on multiple devices:
 
+| Device | Screenshot |
+| --- | --- |
+| 17" Laptop | ![laptop](/assets/images/readme-images/Laptop17.png) |
+| Samgung S21 | ![laptop](/assets/images/readme-images/samsungs21.jpg) |
+| Ipad mini | ![laptop](/assets/images/readme-images/samsungs21.jpg) |
+| Ipad | ![laptop](/assets/images/readme-images/samsungs21.jpg) |
+| Samsung s10 | ![laptop](/assets/images/readme-images/samsungs21.jpg) |
 
 ## Bugs
 
@@ -41,4 +48,5 @@
 |  Everytime a choice was made, the reset button and the game counter kept moving to different positions each time. | To fix this I had to change the position to absolute, and that worked. |
 |  When testing the overall score, to see who won the best out of 15.  It was't working. It should have added player score and computer score.| I logged the scores to the console and the answer. I could see that a number for player was passing through ok but the value for the computer score was coming back as NaN. I was able to focus on the computer section and found it was missing a curly bracket. Once that was entered it worked. |
 | In the checkOverallWinner function I have logged each one to the console to check if it is working and an error message if not. I noticed  the error message was logging to the console everytime along with the correct one. | I used and if statement for this and realised had has finished off the if statement incorrect and the error was was actually outside the if statement. Once I corrected the if statement if worked as expected. |
-|  |  |
+| Having problems with landscape on some mobiles. | Have not fixed |
+| I noticed on the laptop and samsung devices the border on the buttons were black but on iphone the border was white.  | To fix this I had to give the border a colour in css |
