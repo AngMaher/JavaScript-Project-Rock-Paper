@@ -120,7 +120,7 @@ footer{
 }
 /*Rules of the game page*/
 #rules-section{
-    background-color: #47598a;
+    background-color: rgba(126, 199, 106, 0.822);
     height: 1600px;
     width: 30%;
 
@@ -131,7 +131,7 @@ footer{
     padding: 30px;
 
     text-align: center;
-    color:antiquewhite;
+    color: black;
     font-size: 130%;
     line-height: 30px;
 
@@ -139,10 +139,10 @@ footer{
 #rules-section h2{
     color:#191f1c;
 }
-#home-link {
-    color:antiquewhite;
+.home-link {
+    color: black;
 }
-#home-link:hover{
+.home-link:hover{
     background-color: rgb(38, 49, 44, .8);
 }
 /*Media quries section*/

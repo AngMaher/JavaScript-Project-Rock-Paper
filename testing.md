@@ -33,9 +33,9 @@
 * Checked in JSHint with no errors
 
 ### Lighthouse
-* Lighthouse result for main page recieved 100%
+* Lighthouse result for main page received 100%
 ![lighthouse main page](/assets/images/readme-images/lighthouse.png)
-* Second page for the rules I recieved 87% mainly because it didnt like the idea of the box and background colour being so close, but that is actually the look I was going for.
+* Lighthouse result for Rules page received 100%. I orginally received 87% so I changed the text colour to black and the colour of the background from a paler blue to green.
 ![lighthouse rules page](/assets/images/readme-images/lighthouserules.png)
 
 ### Responsiveness Testing
