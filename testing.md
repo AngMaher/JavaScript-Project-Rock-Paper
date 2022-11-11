@@ -37,6 +37,8 @@
 ![lighthouse main page](/assets/images/readme-images/lighthouse.png)
 * Lighthouse result for Rules page received 100%. I orginally received 87% so I changed the text colour to black and the colour of the background from a paler blue to green.
 ![lighthouse rules page](/assets/images/readme-images/lighthouserules.png)
+* This was what the page looked like before the changes:
+![rules page before the changes](/assets/images/readme-images/rules.png) 
 
 ### Responsiveness Testing
 * I used Chrome Developer Tools to test for responsiveness of the website. Also tested on Firefox and safari.

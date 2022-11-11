@@ -77,7 +77,7 @@ The live website can be accessed on this link:  [Live Link](https://angmaher.git
     * Information about the orgin of the game and how this version came about is included in this section.
     * There is a link at the bottom of each section to bring the user back to the game page.
 
-    ![rules](/assets/images/readme-images/rules.png)
+    ![rules](/assets/images/readme-images/rulespage.png)
 
 ### Features left to Implement
 
