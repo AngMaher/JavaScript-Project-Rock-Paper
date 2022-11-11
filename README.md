@@ -118,6 +118,9 @@ The live website can be accessed on this link:  [Live Link](https://angmaher.git
 * I used the Portfolio Project Scope video to help start me off as I was doing the same project.
 * I used the Love Maths project as a reference throughout the project.
 * Images used were downloaded from google.
+* W3Schools was a go to good source.
+* I looked at a youtube video for inspiration
+    * https://www.youtube.com/watch?v=qWPtKtYEsN4
 
 ## Acknowledgements
 
