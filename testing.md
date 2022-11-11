@@ -49,10 +49,9 @@
 | 17" Laptop | [screenshot laptop](/assets/images/readme-images/Laptop17.png) |
 | Samgung S21 | [screenshot samsumg s21](/assets/images/readme-images/samsungs21.jpg) |
 | Ipad mini | [screenshot ipad mini](/assets/images/readme-images/ipad-mini.jpg) |
-| Ipad | [screenshot ipad](/assets/images/readme-images/samsungs21.jpg) |
 | Samsung S10e | [screenshot samsumg s10e](/assets/images/readme-images/samsungs10e.jpg) |
 | Iphone X | [screenshot iphone X](/assets/images/readme-images/iphonex.jpg) |
-| Iphone 13 | [screenshot iphone 14](/assets/images/readme-images/iphone13.jpg) |
+| Iphone 13 | [screenshot iphone 13](/assets/images/readme-images/iphone13.jpg) |
 
 ## Bugs
 
